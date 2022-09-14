@@ -1,0 +1,140 @@
+
+.projects{
+    margin: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .card1 {
+    
+    position: relative;
+    margin-top: 50px;
+    width: 450px;
+    height: 280px;
+  
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(142, 96, 78, 0.3), rgba(0, 0, 0, 0.6));
+    transition: background 0.5s ease;
+  }
+  
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 10px #0F3D3E );
+    
+  }
+  
+  .card-title {
+    position: absolute;
+    width: 450px;
+    left: 0;
+    top: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+   
+  }
+  
+  
+  .card-text{
+    flex-wrap: wrap;
+    position: absolute;
+    width: 450px;
+    left: 0;
+    top: 120px;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+  
+  .card1:hover .title{
+    top: 70px;
+  }
+  
+  .card1:hover .tool{
+   top:120px;
+  }
+  
+  .card-button {
+    position: absolute;
+    width: 450px;
+    left:0;
+    top: 180px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    font-size: 25px;
+   
+    
+  }
+  
+  
+  .card-button a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 1px white;
+    z-index: 1;
+    border-radius: 20px;
+    background: #0F3D3E ;
+  }
+  
+  .card1:hover .card-button {
+    opacity: 1;
+  }
+  
+  @media all and (max-width:500px){
+    .card-title{
+        width: 250px;
+        font-size: 20px;
+    }
+    .card-text{
+        width: 250px;
+        font-size: 15px;
+    }
+    .card-button {
+        width: 250px;
+        font-size: 20px;
+    }
+  }
+
+  @media all and (max-width:300px){
+    .card-title{
+        width: 200px;
+        font-size: 20px;
+    }
+    .card-text{
+        width: 200px;
+        font-size: 15px;
+    }
+    .card-button {
+        width: 200px;
+        font-size: 20px;
+    }
+  }
+  @media all and (max-width:1024px){
+    .card1{
+        width: 400px;
+    }
+  }
+
+
+
