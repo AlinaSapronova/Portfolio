@@ -9,11 +9,10 @@ body{
     font-family: 'Alegreya', serif;
     margin: 0;
 }
-.navbar{
+nav{
     background-color:#f3efe2 ;
     color: #0F3D3E;
-    position: fixed;
-    width: 100%;
+    /* position: fixed; */
     z-index: 1;
 }
 .header{
@@ -183,10 +182,6 @@ footer{
     .myInfo{
         font-size: 25px;
     }
-    .navbar{
-        position: fixed;
-        width:1024px;
-    }
     h1{
         font-size: 50px;
     }
@@ -223,10 +218,6 @@ footer{
         color: #f3efe2 ;
         text-align: center;
     }
-    .navbar{
-        position: fixed;
-        width:750px;
-    }
     h1{
         font-size: 50px;
     }
@@ -250,10 +241,6 @@ footer{
     .text{
         width: 350px;
     }
-    .navbar{
-        
-        width: 425px;
-    }
     .certificate{
         width: 350px;
     }
@@ -266,10 +253,7 @@ footer{
     .text{
         width: 250px;
     }
-    .navbar{
-        
-        width: 300px;
-    }
+
     .me{
         width: 250px;
         margin: 30px;
@@ -279,42 +263,28 @@ footer{
     }
 }
 @media all and (max-width:375px){
-    .navbar{
-        
-        width: 375px;
-    }
+ 
 }
 @media all and (max-width:395px){
-    .navbar{
-        
-        width: 390px;
-    }
     .certificate{
         width: 250px;
     }
 }
 @media all and (max-width:280px){
-    .navbar{
-        
-        width: 270px;
-    }
+
     .myInfo{
         font-size: 20px;
     }
 }
 @media all and (max-width:425px){
-    .navbar{
-        width: 420px;
-    }
+
     .myInfo{
         font-size: 20px;
     }
 }
 
 @media all and (max-width:820px) {
-    .navbar{
-        width: 800px;
-    }
+
     #education{
         display: none;
     }
