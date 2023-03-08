@@ -1,5 +1,5 @@
 .me{
-    width: 400px;
+    width: 300px;
     border-radius: 30px;
     box-shadow: #0F3D3E 30px 30px 30px 30px;
 }
@@ -156,6 +156,7 @@ input{
 }
 .myInfo{
     font-size: 25px;
+    text-align: center;
 }
 footer{
     background-color:#f3efe2 ;
